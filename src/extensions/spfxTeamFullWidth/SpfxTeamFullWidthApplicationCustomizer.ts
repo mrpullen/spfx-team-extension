@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Log } from '@microsoft/sp-core-library';
 import {
   BaseApplicationCustomizer
