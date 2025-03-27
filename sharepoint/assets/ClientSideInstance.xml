@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="SpfxTeamFullWidth"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="763b7e81-a569-4abf-b359-f2ad4636c0a4"
+        Properties="{&quot;cssurl&quot;:&quot;https://043.sharepoint.com/teams/teamsitetest/SiteAssets/site.css&quot;, &quot;enableFullWidth&quot;:&quot;true&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

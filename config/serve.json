@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://043.sharepoint.com/teams/teamsitetest/SitePages/ITHelpdeskHome.aspx",
+      "customActions": {
+        "763b7e81-a569-4abf-b359-f2ad4636c0a4": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "cssurl": "https://043.sharepoint.com/teams/teamsitetest/SiteAssets/site.css",
+            "enableFullWidth": true
+          }
+        }
+      }
+    },
+    "spfxTeamFullWidth": {
+      "pageUrl": "https://043.sharepoint.com/teams/teamsitetest/SitePages/ITHelpdeskHome.aspx",
+      "customActions": {
+        "763b7e81-a569-4abf-b359-f2ad4636c0a4": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "cssurl": "https://043.sharepoint.com/teams/teamsitetest/SiteAssets/site.css",
+            "enableFullWidth": true
+          }
+        }
+      }
+    }
+  }
+}
