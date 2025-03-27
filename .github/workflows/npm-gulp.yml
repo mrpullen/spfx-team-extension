@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       create_release:
-        default: true
+        default: "true"
         description: 'Create Github Release'
   push:
     branches: [ "main" ]
